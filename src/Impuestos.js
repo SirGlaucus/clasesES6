@@ -1,4 +1,4 @@
-export default class Impuesto {
+export default class Impuestos {
     constructor() {
         this._montoBrutoAnual = 0
         this._deducciones = 0

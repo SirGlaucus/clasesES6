@@ -1,10 +1,10 @@
 // Importando las clases
-import Impuesto from "./Impuestos.js"
+import Impuestos from "./Impuestos.js"
 import Cliente from "./Cliente.js"
 
 function main() {
     // Creando el objeto impuesto y setteando sus valores
-    const imp1 = new Impuesto
+    const imp1 = new Impuestos
     imp1.setMontoBrutoAnual(1000000)
     imp1.setDeducciones(200000)
 
